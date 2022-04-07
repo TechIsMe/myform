@@ -26,7 +26,7 @@ const passwordHandler = (event) =>{
 
 const submitHandler = (event) => {
   Event.preventDefault();
-}
+
 
 const updatedForm = {
   firstName: "enterdFirstName",
@@ -41,20 +41,26 @@ setLastName("");
 setEmailAddress("");
 setPassword("");
 
-
+}
 
   return (
     <div className="form-container">
       <div className="learning">
-        {/* <div> 
-        <h3 className="learn"> Learn to code by watching others </h3>
-        <p>
+        <div> 
+          
+        <h3 className="learn"> Learn to code by 
+        <br/>
+        watching others </h3>
+        <p className="code">
         
-          See how experienced developers solve problems in real-time. Watching
-          scripted tutorials is great, but understanding how developers think is
+          See how experienced developers solve problems in real-time. 
+          <br/>
+          Watching scripted tutorials is great, but understanding how 
+          <br/>
+          developers think is
           invaluable.
         </p>
-        </div> */}
+        </div>
         <div className="left">
         <div className="discription"> 
         <h2> Try it Free 7 days then $20/mo.thereafter  </h2>
@@ -63,12 +69,10 @@ setPassword("");
         
           <form onSubmit={submitHandler}>
             <div className="sign-in">
-              <label></label>
-              <input type="text" value={enteredFirstName}placeholder="First Name"  id="First Name"  onChange={firstHandler} />
+              <input type="text" value={enteredFirstName}placeholder="First Name"  id="First Name"  onChange={firstHandler} required/>
 
             </div>
             <div className="sign-in">
-              <label > </label>
               <input type="text" value={enteredLastName}placeholder="Last Name"  id="Last Name" onChange={lastHandler}/>
 
             </div>
@@ -78,15 +82,15 @@ setPassword("");
 
             </div>
             <div className="sign-in">
-              <label></label>
               <input type="password" value={enterdPassword}placeholder="Password"  id="Password" onChange={passwordHandler}/>
 
             </div>
             <div className="button">
               <button type="submit">Clam Your Free Trial</button>
-              <p> By clicking the button, you are agreeing to our Terms and Services</p>
+              <p className="term"> By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
             </div>
-          </form>
+          <div />
+        </form>
             
         </div>
       </div>

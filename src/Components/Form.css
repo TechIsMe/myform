@@ -14,7 +14,6 @@ body{
 }
 .form-container{
    width: 100%;
-   /* width: 50%; */
 }
 
 .learning {
@@ -27,18 +26,23 @@ body{
     background-image: url(../../public/images/bg-intro-desktop.png);
 } 
 
-/* .learning h3{
-    position: absolute;
-    left: 1rem;
-} */
 
-
-p{
-    font-weight: 100;
+.code{
+    font-weight: 800;
+    font-style: italic;
+    font-size: larger;
+    color: #fff;
 }
 
+h3{
+    font-weight: 800;
+    font-size: xx-large;
+    color: #fff;
+    padding: 50px;
+    font-style: oblique;
+}
 
- .left , .discription  h1{
+  .discription {
     width: 90%;
     background-color: hsl(248, 32%, 49%);
     color: white;
@@ -49,9 +53,12 @@ p{
     /* padding-right: 30px; */
 }
 
-
+.left{
+    padding-right: 20px;
+    margin-left: auto;
+}
 form{
-    width: 100%;
+    width: 90%;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -60,9 +67,23 @@ form{
     border-radius: 8px;
 }
 
+.term{
+    font-weight: 100;
+}
+
+
 
 h2{
     margin-bottom: 25px;
+    padding: 10px;
+    font-weight: 200;
+    box-shadow: 0 8px 8px -4px rgb(78, 82, 83);
+}
+
+
+form div{
+    display: flex;
+    flex-direction: column;
 }
 
 input , button{
@@ -78,6 +99,7 @@ button{
     color: #fff;
     background-color: hsl(154, 59%, 51%);
     font-size: 16px;
+    box-shadow: 0 8px 8px -4px lightblue;
 }
 
 form h2{
@@ -85,9 +107,13 @@ form h2{
     color: hsl(249, 10%, 26%);
 
 }
-/* 
-input :focus 
-button :focus
-{
-outline: none;
-} */
+
+
+strong{
+    color: red;
+}
+
+.term{
+    font-weight: 100;
+}
+
