@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    font-size: 16px;
+  
+}
+.form-container{
+   width: 100%;
+   /* width: 50%; */
+}
+
+.learning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px 160px;
+    background-color:hsl(0, 100%, 74%);
+    background-image: url(../../public/images/bg-intro-desktop.png);
+} 
+
+/* .learning h3{
+    position: absolute;
+    left: 1rem;
+} */
+
+
+p{
+    font-weight: 100;
+}
+
+
+ .left , .discription  h1{
+    width: 90%;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    /* padding: 15px 20px; */
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    /* padding-right: 30px; */
+}
+
+
+form{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 35px; */
+    border-radius: 8px;
+}
+
+
+h2{
+    margin-bottom: 25px;
+}
+
+input , button{
+    padding: 17px  25px;
+    margin-bottom: 18px;
+    border: 5px solid #efef;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+button{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: hsl(154, 59%, 51%);
+    font-size: 16px;
+}
+
+form h2{
+    font-size: 10px;
+    color: hsl(249, 10%, 26%);
+
+}
+/* 
+input :focus 
+button :focus
+{
+outline: none;
+} */
