@@ -63,7 +63,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* padding: 35px; */
+    /* padding: 5px; */
     border-radius: 8px;
 }
 
@@ -89,7 +89,7 @@ form div{
 input , button{
     padding: 17px  25px;
     margin-bottom: 18px;
-    border: 5px solid #efef;
+    border: 5px solid #efefef;
     border-radius: 8px;
     font-weight: 600;
 }
