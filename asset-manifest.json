@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/myform/static/css/main.82fe1891.css",
+    "main.js": "/myform/static/js/main.9706ce07.js",
+    "static/js/787.3adc7f2b.chunk.js": "/myform/static/js/787.3adc7f2b.chunk.js",
+    "static/media/bg-intro-desktop.png": "/myform/static/media/bg-intro-desktop.059183eea52640c5068d.png",
+    "index.html": "/myform/index.html",
+    "main.82fe1891.css.map": "/myform/static/css/main.82fe1891.css.map",
+    "main.9706ce07.js.map": "/myform/static/js/main.9706ce07.js.map",
+    "787.3adc7f2b.chunk.js.map": "/myform/static/js/787.3adc7f2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82fe1891.css",
+    "static/js/main.9706ce07.js"
+  ]
+}
